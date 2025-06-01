@@ -17,6 +17,7 @@
     "hardhat-verify": "hardhat verify"
   },
   "devDependencies": {
+    "@aashutoshrathi/word-wrap": "^1.2.6",
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/providers": "^5.7.1",
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.3",
@@ -30,10 +31,10 @@
     "@types/mocha": "^9.1.1",
     "@types/prettier": "^2",
     "@types/qrcode": "^1",
-    "@typescript-eslint/eslint-plugin": "latest",
-    "@typescript-eslint/parser": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "chai": "^4.3.6",
-    "eslint": "^8.26.0",
+    "eslint": "^8.50.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "ethers": "^6.10.0",
@@ -46,13 +47,15 @@
     "prettier": "^2.8.4",
     "solidity-coverage": "^0.8.5",
     "ts-node": "^10.9.1",
+    "tsutils": "^3.21.0",
     "typechain": "^8.1.0",
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.8.1",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
     "@typechain/ethers-v6": "^0.5.1",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.5.0",
     "envfile": "^6.18.0",
     "qrcode": "^1.5.1"
   }
